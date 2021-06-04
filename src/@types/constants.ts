@@ -1,0 +1,1 @@
+export const REGION_PREFIX = "__vue__region__";
