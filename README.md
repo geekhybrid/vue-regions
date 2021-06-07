@@ -43,8 +43,7 @@ import DynmicComponent from '@/components/DynamicComponent.vue';
 
 methods: {    
     onInjectClick(): void {
-        this.$regionManager.$regionManager
-            .mount(Regionnames.RIGHT_SLIDER, DynmicComponent);
+        this.$regionManager.mount(Regionnames.RIGHT_SLIDER, DynmicComponent);
     }
 }
 
